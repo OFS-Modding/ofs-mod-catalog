@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-07-21T06:20:44Z",
+  "generatedAtUtc": "2026-07-21T06:35:00Z",
   "gameBuild": "6433f32e22ce153dd0c9ffc273631d546ff9edf320f80fb2c74723f41b235014",
   "frameworkVersion": "0.2.0",
   "mods": [
@@ -44,8 +44,8 @@
       },
       "package": {
         "url": "https://github.com/OFS-Modding/ofs-deep-hollow/releases/download/v0.1.0/OFS.DeepHollow-0.1.0.ofmod",
-        "bytes": 26539,
-        "sha256": "9f19722a320e234a261ee8391af412964440df604e6ebb7d601a68b55f2275d3"
+        "bytes": 27396,
+        "sha256": "9bd762dcd37efbf972fa978de204d8480f690503fabf64488c532d3ad2c997b9"
       }
     },
     {
@@ -68,8 +68,8 @@
       },
       "package": {
         "url": "https://github.com/OFS-Modding/ofs-deep-hollow-miners/releases/download/v0.1.0/OFS.DeepHollow.Miners-0.1.0.ofmod",
-        "bytes": 21364,
-        "sha256": "181fd0f62942a9441db924a2d5bb59d2ea301d2f4185559dfee18613bc45ec68"
+        "bytes": 22206,
+        "sha256": "889ffd66cae15d7932250588ead1be282a739cf5e3bf0a9064e2ccef85f06e50"
       }
     }
   ]
