@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-07-21T07:18:18Z",
+  "generatedAtUtc": "2026-07-21T07:42:13Z",
   "gameBuild": "6433f32e22ce153dd0c9ffc273631d546ff9edf320f80fb2c74723f41b235014",
   "frameworkVersion": "0.2.0",
   "mods": [
@@ -68,6 +68,28 @@
         "url": "https://github.com/OFS-Modding/ofs-deep-hollow/releases/download/v0.1.1/OFS.DeepHollow-0.1.1.ofmod",
         "bytes": 27559,
         "sha256": "e915d16b29f4a6a52684b66f2e7e678223dd3acda08af78861be06496ed46de4"
+      }
+    },
+    {
+      "id": "ofs.deep-hollow",
+      "name": "Deep Hollow",
+      "version": "0.1.2",
+      "summary": "Adds an original underground mining site with physical, server-authoritative vanilla ore nodes.",
+      "author": "OFS-Modding contributors",
+      "sdkVersion": "0.2.4",
+      "gameBuilds": ["6433f32e22ce153dd0c9ffc273631d546ff9edf320f80fb2c74723f41b235014"],
+      "dependencies": [],
+      "capabilities": ["content.items.read", "content.mining.write", "input.keyboard", "interactions.register", "network.server", "physics.runtime", "players.teleport", "unsafe.il2cpp", "world.local"],
+      "multiplayer": "incompatible",
+      "thumbnail": {
+        "url": "https://ofs-modding.github.io/ofs-mod-catalog/icons/ofs.deep-hollow.png",
+        "bytes": 6160,
+        "sha256": "57cf10390675f358371b1f3b7e8e1397486cd9f8e7e09757c76dc394a8a23966"
+      },
+      "package": {
+        "url": "https://github.com/OFS-Modding/ofs-deep-hollow/releases/download/v0.1.2/OFS.DeepHollow-0.1.2.ofmod",
+        "bytes": 28930,
+        "sha256": "93856920937f478c76170f377928a182577b177b513fb597c777e6ff9a58a849"
       }
     },
     {
