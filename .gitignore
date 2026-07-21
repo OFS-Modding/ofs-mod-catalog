@@ -1,0 +1,5 @@
+.private/
+outputs/
+public/catalog.signed.json
+*.pem
+!keys/*.pub

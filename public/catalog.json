@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-07-20T22:55:02Z",
+  "gameBuild": "8370257f4d60c7b8def58be8804d8724d76b95639baf4f199a7d54ef75d6e782",
+  "frameworkVersion": "0.1.0",
+  "mods": [
+    {
+      "id": "ofs.crash-and-drift",
+      "name": "Crash & Drift",
+      "version": "0.1.2",
+      "summary": "Vehicles struck by the local driver explode visually and disappear. Hold Shift while driving to reduce traction and drift.",
+      "author": "OFS-Modding contributors",
+      "sdkVersion": "0.1.0",
+      "gameBuilds": ["8370257f4d60c7b8def58be8804d8724d76b95639baf4f199a7d54ef75d6e782"],
+      "dependencies": [],
+      "capabilities": ["assets.bundle-set", "hooks.il2cpp", "input.keyboard", "world.local"],
+      "multiplayer": "incompatible",
+      "thumbnail": {
+        "url": "https://ofs-modding.github.io/ofs-mod-catalog/icons/ofs.crash-and-drift.png",
+        "bytes": 7965,
+        "sha256": "fa0b0a17905ac61e567bcb95cb1f0b9dd0c581c56da1a456451ff1285a1c00bc"
+      },
+      "package": {
+        "url": "https://github.com/OFS-Modding/ofs-crash-and-drift/releases/download/v0.1.2/ofs.crash-and-drift-0.1.2.ofmod",
+        "bytes": 51320,
+        "sha256": "b0ed0cc3d2e73372ae538cb1f501f8f1d0f628fa0b32b104f8e22185b95850f9"
+      }
+    },
+    {
+      "id": "ofs.example.mod",
+      "name": "OFS Example Mod",
+      "version": "0.1.0",
+      "summary": "Reference implementation demonstrating SDK loading, UI, content, NPC, networking and save APIs.",
+      "author": "OFS-Modding contributors",
+      "sdkVersion": "0.1.0",
+      "gameBuilds": ["8370257f4d60c7b8def58be8804d8724d76b95639baf4f199a7d54ef75d6e782"],
+      "dependencies": [],
+      "capabilities": ["ui.main-menu", "ui.gameplay", "world.local", "content.items", "npc.definitions", "assets.bundle-set", "network.messages", "save.migrations"],
+      "multiplayer": "client",
+      "thumbnail": {
+        "url": "https://ofs-modding.github.io/ofs-mod-catalog/icons/ofs.example.mod.png",
+        "bytes": 8988,
+        "sha256": "7244fbe6018c9fee4bc40aa349c996ad79206ff86773c61e60ea6a4656705c52"
+      },
+      "package": {
+        "url": "https://github.com/OFS-Modding/ofs-example-mod/releases/download/v0.1.0/ofs.example.mod-0.1.0.ofmod",
+        "bytes": 37006,
+        "sha256": "8c9b2d526744e3651a567c46d2405c82b792bfa6e2f8f3c9d640d492628cc37b"
+      }
+    }
+  ]
+}

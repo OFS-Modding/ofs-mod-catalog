@@ -1,0 +1,77 @@
+name: Mod submission
+description: Propose a released mod for the signed official catalog.
+title: "[Mod]: "
+labels:
+  - submission
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Publish the `.ofmod` as an immutable GitHub Release asset before submitting. Do not upload packages, game files, or secrets to this issue.
+  - type: input
+    id: mod_id
+    attributes:
+      label: Mod id
+      description: Stable lowercase reverse-DNS-style package id.
+      placeholder: ofs.example.mod
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source repository
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: input
+    id: package_url
+    attributes:
+      label: Immutable package URL
+      placeholder: https://github.com/owner/repository/releases/download/v1.0.0/example.ofmod
+    validations:
+      required: true
+  - type: input
+    id: package_bytes
+    attributes:
+      label: Package byte count
+    validations:
+      required: true
+  - type: input
+    id: package_sha256
+    attributes:
+      label: Package SHA-256
+      description: Lowercase SHA-256 of the complete `.ofmod` file.
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility
+      description: SDK version, supported game fingerprints, dependencies, capabilities, and multiplayer policy.
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Catalog summary
+      description: Short English description shown in the Mod Hub and portal.
+    validations:
+      required: true
+  - type: checkboxes
+    id: declarations
+    attributes:
+      label: Declarations
+      options:
+        - label: I can provide an original 64x64 PNG thumbnail under a redistributable license.
+          required: true
+        - label: The release contains no copyrighted game assets or private credentials.
+          required: true
+        - label: I understand that catalog acceptance happens through a reviewed pull request.
+          required: true
