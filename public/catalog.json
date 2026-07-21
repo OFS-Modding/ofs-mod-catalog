@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-07-21T02:23:36Z",
+  "generatedAtUtc": "2026-07-21T02:59:09Z",
   "gameBuild": "6433f32e22ce153dd0c9ffc273631d546ff9edf320f80fb2c74723f41b235014",
   "frameworkVersion": "0.1.0",
   "mods": [
@@ -24,28 +24,6 @@
         "url": "https://github.com/OFS-Modding/ofs-crash-and-drift/releases/download/v0.1.2/ofs.crash-and-drift-0.1.2.ofmod",
         "bytes": 51320,
         "sha256": "b0ed0cc3d2e73372ae538cb1f501f8f1d0f628fa0b32b104f8e22185b95850f9"
-      }
-    },
-    {
-      "id": "ofs.example.mod",
-      "name": "OFS Example Mod",
-      "version": "0.1.0",
-      "summary": "Reference implementation demonstrating SDK loading, UI, content, NPC, networking and save APIs.",
-      "author": "OFS-Modding contributors",
-      "sdkVersion": "0.1.0",
-      "gameBuilds": ["6433f32e22ce153dd0c9ffc273631d546ff9edf320f80fb2c74723f41b235014"],
-      "dependencies": [],
-      "capabilities": ["ui.main-menu", "ui.gameplay", "world.local", "content.items", "npc.definitions", "assets.bundle-set", "network.messages", "save.migrations"],
-      "multiplayer": "client",
-      "thumbnail": {
-        "url": "https://ofs-modding.github.io/ofs-mod-catalog/icons/ofs.example.mod.png",
-        "bytes": 8988,
-        "sha256": "7244fbe6018c9fee4bc40aa349c996ad79206ff86773c61e60ea6a4656705c52"
-      },
-      "package": {
-        "url": "https://github.com/OFS-Modding/ofs-example-mod/releases/download/v0.1.0/ofs.example.mod-0.1.0.ofmod",
-        "bytes": 37006,
-        "sha256": "8c9b2d526744e3651a567c46d2405c82b792bfa6e2f8f3c9d640d492628cc37b"
       }
     }
   ]
