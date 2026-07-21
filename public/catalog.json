@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-07-21T07:42:13Z",
+  "generatedAtUtc": "2026-07-21T14:51:01Z",
   "gameBuild": "6433f32e22ce153dd0c9ffc273631d546ff9edf320f80fb2c74723f41b235014",
-  "frameworkVersion": "0.2.0",
+  "frameworkVersion": "0.3.0",
   "mods": [
     {
       "id": "ofs.crash-and-drift",
@@ -24,6 +24,28 @@
         "url": "https://github.com/OFS-Modding/ofs-crash-and-drift/releases/download/v0.1.2/ofs.crash-and-drift-0.1.2.ofmod",
         "bytes": 51320,
         "sha256": "b0ed0cc3d2e73372ae538cb1f501f8f1d0f628fa0b32b104f8e22185b95850f9"
+      }
+    },
+    {
+      "id": "ofs.crash-and-drift",
+      "name": "Crash & Drift",
+      "version": "0.1.3",
+      "summary": "AI traffic struck by the local driver explodes visually and is recycled safely. Hold Shift while driving to reduce traction and drift.",
+      "author": "OFS-Modding contributors",
+      "sdkVersion": "0.2.4",
+      "gameBuilds": ["6433f32e22ce153dd0c9ffc273631d546ff9edf320f80fb2c74723f41b235014"],
+      "dependencies": [],
+      "capabilities": ["assets.runtime", "hooks.il2cpp", "input.keyboard", "world.local"],
+      "multiplayer": "incompatible",
+      "thumbnail": {
+        "url": "https://ofs-modding.github.io/ofs-mod-catalog/icons/ofs.crash-and-drift.png",
+        "bytes": 7965,
+        "sha256": "fa0b0a17905ac61e567bcb95cb1f0b9dd0c581c56da1a456451ff1285a1c00bc"
+      },
+      "package": {
+        "url": "https://github.com/OFS-Modding/ofs-crash-and-drift/releases/download/v0.1.3/ofs.crash-and-drift-0.1.3.ofmod",
+        "bytes": 25846,
+        "sha256": "8f82afb497cbc76424b7e137d79f63da32747526d2f5d40b822b51fdd5609687"
       }
     },
     {
@@ -114,6 +136,52 @@
         "url": "https://github.com/OFS-Modding/ofs-deep-hollow-miners/releases/download/v0.1.0/OFS.DeepHollow.Miners-0.1.0.ofmod",
         "bytes": 22206,
         "sha256": "889ffd66cae15d7932250588ead1be282a739cf5e3bf0a9064e2ccef85f06e50"
+      }
+    },
+    {
+      "id": "ofs.deep-hollow",
+      "name": "Deep Hollow",
+      "version": "0.1.3",
+      "summary": "Adds an original underground mining site with physical, server-authoritative vanilla ore nodes and shared onsite-operation leases.",
+      "author": "OFS-Modding contributors",
+      "sdkVersion": "0.2.4",
+      "gameBuilds": ["6433f32e22ce153dd0c9ffc273631d546ff9edf320f80fb2c74723f41b235014"],
+      "dependencies": [],
+      "capabilities": ["content.items.read", "content.mining.write", "input.keyboard", "interactions.register", "network.server", "physics.runtime", "players.teleport", "unsafe.il2cpp", "world.local"],
+      "multiplayer": "incompatible",
+      "thumbnail": {
+        "url": "https://ofs-modding.github.io/ofs-mod-catalog/icons/ofs.deep-hollow.png",
+        "bytes": 6160,
+        "sha256": "57cf10390675f358371b1f3b7e8e1397486cd9f8e7e09757c76dc394a8a23966"
+      },
+      "package": {
+        "url": "https://github.com/OFS-Modding/ofs-deep-hollow/releases/download/v0.1.3/ofs.deep-hollow-0.1.3.ofmod",
+        "bytes": 29563,
+        "sha256": "182a7e5e4636a72687031a0fb8e75288ffc5e471b5933ca8a49fec2f834c722f"
+      }
+    },
+    {
+      "id": "ofs.deep-hollow-miners",
+      "name": "Deep Hollow Miners",
+      "version": "0.2.0",
+      "summary": "Adds PC-managed onsite operations using owned road vehicles and one or two real hired miners.",
+      "author": "OFS-Modding contributors",
+      "sdkVersion": "0.3.0",
+      "gameBuilds": ["6433f32e22ce153dd0c9ffc273631d546ff9edf320f80fb2c74723f41b235014"],
+      "dependencies": [
+        { "id": "ofs.deep-hollow", "version": ">=0.1.3, <1.0.0", "optional": false }
+      ],
+      "capabilities": ["content.mining.write", "gameplay.ui", "npcs.local", "network.server", "world.local"],
+      "multiplayer": "incompatible",
+      "thumbnail": {
+        "url": "https://ofs-modding.github.io/ofs-mod-catalog/icons/ofs.deep-hollow-miners.png",
+        "bytes": 6281,
+        "sha256": "8a939360a78e051c2f6c740b8ed1848e64680b6cc4ac72bd3fbc75f581f37e35"
+      },
+      "package": {
+        "url": "https://github.com/OFS-Modding/ofs-deep-hollow-miners/releases/download/v0.2.0/ofs.deep-hollow-miners-0.2.0.ofmod",
+        "bytes": 34039,
+        "sha256": "5a32eaf7f93dadd6df90988e068cac32faa0a63e90ab5dd97a4a84b1ba3abf88"
       }
     }
   ]

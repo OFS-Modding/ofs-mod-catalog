@@ -1,14 +1,14 @@
 {
   "schemaVersion": 2,
   "channel": "stable",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "platform": "win-x64",
   "releaseUrl": "https://github.com/OFS-Modding/ofs-loader/releases/latest",
   "releaseApiUrl": "https://api.github.com/repos/OFS-Modding/ofs-loader/releases/latest",
   "installerUrl": "https://github.com/OFS-Modding/ofs-loader/releases/latest/download/OFS-Installer-win-x64.exe",
   "installerChecksumUrl": "https://github.com/OFS-Modding/ofs-loader/releases/latest/download/OFS-Installer-win-x64.exe.sha256",
-  "installerBytes": 100142465,
-  "installerSha256": "c5ef6bcd29d5b31b052bb90d2f4b220882cf8629dafe4adb6cddc6f80f476ab7",
-  "developerArchiveUrl": "https://github.com/OFS-Modding/ofs-loader/releases/download/v0.2.0/OFS-Loader-0.2.0-win-x64.zip",
+  "installerBytes": 100147073,
+  "installerSha256": "8cee6dfe94f1849535b770537668aa646144930b2d1a2e3caf7020186ccc2a75",
+  "developerArchiveUrl": "https://github.com/OFS-Modding/ofs-loader/releases/download/v0.3.0/OFS-Loader-0.3.0-win-x64.zip",
   "bootstrapScriptUrl": "https://raw.githubusercontent.com/OFS-Modding/ofs-loader/main/install.ps1"
 }
